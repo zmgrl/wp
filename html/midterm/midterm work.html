@@ -23,9 +23,9 @@ h3
    
    <Div class="centerDiv">
    <label for="Enter the number">Enter three different numbers</label><br>
-   <input type="number" id="d" name="Enter the numbers" maxlength="1" max="9"min="0">
-   <input type="number" id="e" name="Enter the numbers" maxlength="1" max="9"min="0">
-   <input type="number" id="f" name="Enter the numbers" maxlength="1" max="9"min="0"><br><br>
+   <input type="number" id="d" name="Enter the numbers" maxlength="1" max="9" min="0">
+   <input type="number" id="e" name="Enter the numbers" maxlength="1" max="9" min="0">
+   <input type="number" id="f" name="Enter the numbers" maxlength="1" max="9" min="0"><br><br>
    <input type="submit" id="send out" name="send out" value="send out" onclick="check()"><br>
 <p id="ck"></p>
    </Div>
@@ -52,7 +52,7 @@ h3
    var f = parseInt(document.getElementById("f").value);
    var nbs = [d,e,f];
    if(d !== e && e !== f && d !== f )
-   {
+   {      
       for (var i = 0 ; i <  3 ; i++)
       {
 
@@ -75,14 +75,13 @@ h3
        }
        else
        {
-
            document.getElementById("ck").innerHTML = `${A}A${B}B<br>Round: ${round}`
        }   
    }
 
    else 
    {
-      document.getElementById("ck").innerHTML = "error";
+      document.getElementById("ck").innerHTML = `Error`;
    }
  }
  </script>
