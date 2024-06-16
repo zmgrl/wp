@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<style>
+body
+{
+   background-color:#ECF5FF;
+}
+h2,h4
+{
+   text-align: center;
+}
+.centerDiv
+{
+   
+  text-align: center;
+}
+</style>
+<head>
+<title>Easy</title>
+</head>
+<body>
+   <h2>1A2B</h2>
+   <h4>Game Rule</h4>
+   <Div class="centerDiv">
+   <p>Please enter the different three numbers between 0 and 9, don't repeat.<br>3A wins the game<br><br>A → The guess number is the same as random number and the position is  same.<br>B → The guess number is the same as random number,but in the different position.</p>
+      <p>Ex:<br>random numer:216<br>Guess number:241<br>1A1B : 2 is A. 1 is B.</p>
+   <a href="http://htmlpreview.github.io/?https://github.com/zmgrl/wp/blob/master/html/midterm/midterm%20work.html">play</a>
+   </Div>
+</body>
+</html>
