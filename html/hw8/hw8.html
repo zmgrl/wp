@@ -7,17 +7,28 @@
 
 <style>
 
-body 
+body, html 
 {
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
 }
 
 header 
 {
   background-color: #888;
+  font-family: Arial;
   text-align: center;
 }
-
+.bg
+{
+  background-image: url("20240120_12303.jpg");
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
 .row::after 
 {
   content: "";
@@ -66,7 +77,9 @@ footer
 </head>
 <body>
 <header>
-  <img src="20240120_123023.jpg" style="width:1000px;height:200px;"/>
+    <div class="bg">
+      <h3>放空</h3>
+    </div>
 </header>
   <div class="topnav">
     <a href="#">≡</a>
@@ -82,10 +95,8 @@ footer
   </div>
 
 <footer class="footer">
-  <p>Footer</p>
+  <p>Footer http://htmlpreview.github.io/?</p>
 </footer>
 
 </body>
 </html>
-
-//http://htmlpreview.github.io/?
