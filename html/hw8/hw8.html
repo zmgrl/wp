@@ -14,11 +14,6 @@ body, html
   margin: 0;
 }
 
-header 
-{
-  font-family: Arial;
-  text-align: center;
-}
 .bg
 {
   background-image: url("20240120_123023.jpg");
@@ -26,6 +21,15 @@ header
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bgt
+{
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  left:40%;
+  top:40%;
 }
   
 .row::after 
@@ -75,11 +79,11 @@ footer
 </style>
 </head>
 <body>
-<header>
-    <div class="bg">
-      <h3>放空</h3>
-    </div>
-</header>
+  <div class="bg">
+    <div class="bgt">
+      <strong>放空</strong>
+    </div>  
+  </div>
   <div class="topnav">
     <a href="#">≡</a>
     <a href="#">Link</a>
