@@ -4,16 +4,19 @@
 <style> 
 div
 {
-  width: 100px;
-  height: 100px;
-  background: red;
+  width: 50px;
+  height: 40px;
+  background: gray;
   transition: width 2s, height 4s;
+  font-size:5vw;
+  color: white;
+  text-align:center;
+  font-family: Arial;
 }
 div1
 {
   width: 300px;
   height: 400px;
-  background: red;
   transition: width 2s, height 4s;
 }
 
@@ -22,7 +25,7 @@ div1
 </head>
 <body>
 
-<div id="j" onclick="mouseDown()" ></div>
+<div id="j" onclick="mouseDown()" >≡</div>
 <div1 id="j" onclick="mouseDown()" ></div1>
 <script>
 var c=0;
@@ -38,8 +41,8 @@ function mouseDown()
     }
     else
     {
-      j.style.width ="100px";
-      j.style.height ="100px";
+      j.style.width ="50px";
+      j.style.height ="40px";
       c=c-1;
     }
 }
