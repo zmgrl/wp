@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>食物</title>
+<style>
+*
+{
+  box-sizing: border-box;
+}
+
+body,html
+{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.bg
+{ 
+  position: relative;
+  opacity: 0.6;
+  background-image: url("20240120_123023.jpg");
+  height: 40%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgt
+{
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  left:50%;
+  top:50%;
+}
+  
+.row::after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.topnav 
+{
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a 
+{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.topnav a:hover 
+{
+  background-color: #ddd;
+  color: #666;
+}
+
+.column
+{
+  float: left;
+  padding: 10px;
+}
+
+
+.column.side 
+{
+  width: 15%;
+}
+
+.column.middle
+{
+  width: 70%;
+}
+
+footer 
+{
+  background-color: #999;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+  <div class="bg">
+    <div class="bgt">
+    </div>  
+  </div>
+  <div class="topnav">
+    <a href="http://htmlpreview.github.io/?https://github.com/zmgrl/wp/blob/master/html/hw8/hw8.html">首頁</a>
+    <a href="http://htmlpreview.github.io/?https://github.com/zmgrl/wp/blob/master/html/hw8/place.html">景點</a>
+    <a href="">食物</a>
+    <a href="">校園</a>
+  </div>
+
+  <div class="row">
+      <div class="column side">
+        <h2>Side</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+      </div>
+      <div class="column middle">
+        <h3>食物</h3>
+        <details >
+        <summary>芒果蛋糕</summary>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </details>     
+        <details >
+        <summary>新馬辣_膠原蛋白鍋</summary>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </details> 
+      </div>
+      <div class="column side">
+        <h2>Side</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+      </div>
+  </div>
+ 
+<footer class="footer">
+  <p> http://htmlpreview.github.io/?</p>
+</footer>
+
+</body>
+</html> 
