@@ -3,8 +3,12 @@
 <head>
 <title>景點</title>
 <style>
+*
+{
+  box-sizing: border-box;
+}
 
-body, html 
+body,html
 {
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
@@ -62,9 +66,19 @@ body, html
 
 .column
 {
-  float: right;
-  width: 85%;
-  padding: 15px;
+  float: left;
+  padding: 10px;
+}
+
+
+.column.side 
+{
+  width: 15%;
+}
+
+.column.middle
+{
+  width: 70%;
 }
 
 footer 
@@ -83,28 +97,35 @@ footer
     </div>  
   </div>
   <div class="topnav">
-    <a href="http://htmlpreview.github.io/?https://github.com/zmgrl/wp/blob/master/html/hw8/hw8.html">≡</a>
-    <a href="#">景點</a>
-    <a href="">美食</a>
-
+    <a href="http://htmlpreview.github.io/?https://github.com/zmgrl/wp/blob/master/html/hw8/hw8.html">首頁</a>
+    <a href="http://htmlpreview.github.io/?https://github.com/zmgrl/wp/blob/master/html/hw8/place.html">景點</a>
+    <a href="http://htmlpreview.github.io/?https://github.com/zmgrl/wp/blob/master/html/hw8/%E9%A3%9F%E7%89%A9.html">食物</a>
+    <a href="">校園</a>
   </div>
 
   <div class="row">
-    <div class="column">
-      <details >
-      <summary>南投</summary>
+      <div class="column side">
+        <h2>Side</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+      </div>
+      <div class="column middle">
+        <details >
+        <summary>南投/summary>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-     </details> 
-     <details >
-      <summary>台南</summary>
+        </details>     
+        <details >
+        <summary>台南</summary>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-     </details> 
-   </div>
- </div>
+        </details> 
+      </div>
+      <div class="column side">
+        <h2>Side</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+      </div>
+  </div>
  
-
 <footer class="footer">
-  <p>Footer http://htmlpreview.github.io/?</p>
+  <p> http://htmlpreview.github.io/?</p>
 </footer>
 
 </body>
