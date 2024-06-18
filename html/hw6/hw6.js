@@ -5,7 +5,7 @@
 div
 {
   width: 50px;
-  height: 60px;
+  height: 100px;
   background: gray;
   transition: width 2s, height 4s;
   font-size:5vw;
