@@ -1,0 +1,24 @@
+<html>
+<body>
+<button onclick="btn1()" style="height:40px;width:60px;" id="btn1">right</button>
+<script>
+var left = 10;
+var top1 = 10;
+var position = 'absolute';
+var a = document.querySelector('button');
+a.style.position = 'absolute';
+a.style.left = left;
+
+function btn1() 
+{
+      left = left + 10;
+      a.style.left = left;
+      if(left>450)
+      {
+        document.getElementById("btn1").innerHTML  = "max:450";
+      }
+}
+
+</script>
+</body>
+</html>
