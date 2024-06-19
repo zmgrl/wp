@@ -1,0 +1,27 @@
+<html>
+<body>
+<button onclick="btn1()" id="btn1"  >big</button>
+<script>
+var left = 10;
+var top1 = 10;
+var height = 30;
+var width = 30;
+var position = 'absolute';
+var a = document.querySelector('button');
+a.style = `position:${position};left:${left};;top:${top1};height:${height};width:${width}`
+function btn1() 
+{
+    width += 10;
+    height += 10;
+    a.style = `position:${position};left:${left};top:${top1};height:${height};width:${width};`
+    if(width >=300)
+    {
+      a.style = `position:${position};left:${left};top:${top1};height:${300};width:${300}`
+     document.getElementById("btn1").innerHTML  = "max:300";
+    }
+}
+
+
+</script>
+</body>
+</html>
