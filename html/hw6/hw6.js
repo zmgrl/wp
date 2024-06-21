@@ -13,20 +13,12 @@ div
   text-align:center;
   font-family: Arial;
 }
-div1
-{
-  width: 300px;
-  height: 400px;
-  transition: width 2s, height 4s;
-}
-
 
 </style>
 </head>
 <body>
 
 <div id="j" onclick="mouseDown()" >≡</div>
-<div1 id="j" onclick="mouseDown()" ></div1>
 <script>
 var c=0;
 var j= document.getElementById("j");
